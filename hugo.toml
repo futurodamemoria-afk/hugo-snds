@@ -1,3 +1,28 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+
+theme = "github.com/adityatelange/hugo-PaperMod"
+
+[params]
+  Title = "Site Nacional de Skate"
+  Description = "O portal nacional de skate em Portugal há mais de 30 anos"
+  author = "futurodamemoria-afk"
+  ShowBreadCrumbs = true
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowToc = true
+  defaultTheme = "auto"
+
+[params.homeInfoParams]
+  Title = "Site Nacional de Skate 🛹"
+  Content = "Mais de 30 anos de história, notícias e arquivo completo do skate em Portugal."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/futurodamemoria-afk"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:futurodamemoria@gmail.com"
