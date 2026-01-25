@@ -1,9 +1,20 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+# Hugo basic config (keep if you have baseURL or other)
+baseURL = "http://localhost:1313/"  # change later to your domain
+languageCode = "pt-pt"
+title = "Site Nacional de Skate"
 
+# Theme
 theme = "github.com/adityatelange/hugo-PaperMod"
 
+# Taxonomies
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+# Pagination
+paginate = 20
+
+# Single [params] section - everything merged here
 [params]
   Title = "Site Nacional de Skate"
   Description = "O portal nacional de skate em Portugal há mais de 30 anos"
@@ -15,14 +26,47 @@ theme = "github.com/adityatelange/hugo-PaperMod"
   ShowToc = true
   defaultTheme = "auto"
 
-[params.homeInfoParams]
-  Title = "Site Nacional de Skate 🛹"
-  Content = "Mais de 30 anos de história, notícias e arquivo completo do skate em Portugal."
+  # Home info section
+  [params.homeInfoParams]
+    Title = "Site Nacional de Skate 🛹"
+    Content = "Mais de 30 anos de história, notícias e arquivo completo do skate em Portugal."
 
-[[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/futurodamemoria-afk"
+  # Social icons
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/futurodamemoria-afk"
 
-[[params.socialIcons]]
-  name = "email"
-  url = "mailto:futurodamemoria@gmail.com"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:futurodamemoria@gmail.com"
+
+# Main menu - these are array tables, can be multiple
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Notícias"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "Arquivos"
+  url = "/archives/"
+  weight = 3
+
+[[menu.main]]
+  name = "Categorias"
+  url = "/categories/"
+  weight = 4
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 5
+
+[[menu.main]]
+  name = "Sobre"
+  url = "/sobre/"
+  weight = 6
