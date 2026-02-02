@@ -3,7 +3,7 @@
 backend:
   name: github
   repo: futurodamemoria-afk/hugo-snds
-  branch: main  
+  branch: main 
 
 local_backend: true
 
