@@ -1,5 +1,5 @@
 # Hugo basic config (keep if you have baseURL or other)
-baseURL = "http://localhost:1313/"  # change later to your domain
+baseURL = "https://hugo-snds.pages.dev/"  # change later to your domain
 languageCode = "pt-pt"
 title = "Site Nacional de Skate"
 
