@@ -1,7 +1,7 @@
 # Hugo basic config (keep if you have baseURL or other)
 baseURL = "https://hugo-snds.pages.dev/"  # change later to your domain
 languageCode = "pt-pt"
-title = "Site Nacional de Skate"
+title = "Site Nacional de Skate - desde 1994"
 
 # Theme
 theme = "github.com/adityatelange/hugo-PaperMod"
