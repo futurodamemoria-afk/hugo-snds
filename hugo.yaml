@@ -1,4 +1,4 @@
-baseURL = "https://hugo-snds.pages.dev/"
+baseURL: https://hugo-snds.pages.dev/
 languageCode: pt-pt
 title: Site Nacional de Skate - desde 1994
 pagination.paperSize: 5
