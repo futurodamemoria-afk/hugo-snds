@@ -1,7 +1,7 @@
 ---
 title: O Gustavo Ribeiro no Projeto Olímpico
 date: 2019-04-16T00:12:00
-draft: true
+draft: false
 tags:
   - gustavo ribeiro, jogos olímpicos
 ---
